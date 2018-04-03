@@ -47,7 +47,7 @@ Szmrecsanyi 2016).
 > result <- measure.complexity("yourdirectory/", repetitions)
 
 
-Note that the software has been developed and tested on UNIX. It has not been tested on Windows or MAC.
+Note that the software has been developed and tested on Debian GNU/Linux 9.4. It has not been tested on Windows.
 
 
 
