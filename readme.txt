@@ -28,8 +28,9 @@ The distortion and compression loop takes plain text files (file extension
 .txt) as input. It is designed to work on multiple-file datasets, i.e. you need
 to provide at least two text files.
 
-To obtain reliable results convert your text files to lowercase, remove all
-non-alphabetical characters (e.g. corpus mark-up, quotation marks, numbers, or special symbols like @). Replace all end-of-sentence markers with a single fullstop so that the script can create samples of random sentences.
+All end-of-sentence markers need to be replaced with a single fullstop so that the script can create samples of random sentences.
+
+Further non-mandatory text processing: To obtain reliable results it is further recommended to convert your text files to lowercase, remove all non-alphabetical characters (i.e. XML or corpus mark-up, quotation marks, numbers, commas, hyphens, or special symbols like @,#,$ as well as invisible UTF-characters, etc.). 
 
 
 4. Calling the loop
