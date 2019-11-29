@@ -74,7 +74,7 @@ Ehret, Katharina (2018a). "An information-theoretic view on language complexity 
 
 Ehret, Katharina (2018b). "Kolmogorov complexity as a universal measure of language complexity". In: Aleksandrs Berdicevskis & Christian Bentz  (eds.), *Proceedings of the First Shared Task on Measuring Language Complexity*, 8-14. Workshop on "Measuring Language Complexity", EvoLang XII, Torun, Poland.
 
-Ehret, Katharina (2017).  "[An information-theoretic approach to language complexity: variation in naturalistic corpora]((https://freidok.uni-freiburg.de/data/12243)". FreiDok plus, Universität Freiburg. DOI: 10.6094/UNIFR/12243.
+Ehret, Katharina (2017).  "[An information-theoretic approach to language complexity: variation in naturalistic corpora](https://freidok.uni-freiburg.de/data/12243)". FreiDok plus, Universität Freiburg. DOI: 10.6094/UNIFR/12243.
 
 Ehret, Katharina & Benedikt Szmrecsanyi (2016a). "Compressing learner language: an information-theoretic measure of complexity in SLA".  *Second Language Research*.  DOI: 10.1177/0267658316669559  (Sage OnlineFirst)
 
