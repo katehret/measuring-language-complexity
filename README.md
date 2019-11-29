@@ -62,7 +62,7 @@ This function takes two arguments:
 1. The name of the directory where the data and temp folders are located.
 2. The number of repetitions you wish to apply. The customary number of repetitions applied with the compression technique is N = 1000.
 
-    result <- measure.complexity("yourdirectory/", repetitions)
+        result = measure.complexity("yourdirectory/", repetitions)
 
 
 Note that the software has been developed and tested on Debian GNU/Linux 9.4. It has not been tested on Windows.
