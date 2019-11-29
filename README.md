@@ -1,6 +1,8 @@
 ## measuring-language-complexity
 Kolmogorov complexity, language complexity, compression
 
+### Description
+
 This repository contains all necessary R scripts to implement the compression technique developed and described in 
 
 * Ehret, Katharina (2017).  "An information-theoretic approach to language complexity: variation in naturalistic corpora". FreiDok plus, Universität Freiburg. DOI: 10.6094/UNIFR/12243.
