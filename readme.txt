@@ -1,12 +1,22 @@
 This repository contains all necessary R scripts to implement the compression
-technique developed and described in Ehret (2017).
+technique developed and described in 
 
-It comprises the following items:
+* Ehret, Katharina (2017).  "An information-theoretic approach to language complexity: variation in naturalistic corpora". FreiDok plus, Universität Freiburg. DOI: 10.6094/UNIFR/12243.
 
-distcomp_loop.r
-distcomp_functions.r
-sample_data.zip
+This research was sparked by the typological-sociolinguistic complexity debate. Originally concerned with the question of whether or not all languages are equally complex, the focus of the debate has recently moved to developing and comparing metrics of language complexity. 
 
+Against this backdrop, Ehret (2017) explores the use and applicability of Kolmogorov complexity as a complexity metric in naturalistic corpora. Kolmogorov complexity can be conveniently approximated with compression algorithms and measures the information content, or complexity of texts in terms of the predictability of new text passages on the basis of previously seen text passages. Basically, texts which can be compressed more efficiently are linguistically less complex. In combination with various distortion techniques, the measure can be used to assess complexity at the morphological and syntactic level. 
+
+This repository comprises the following items:
+
+* distcomp_functions.r
+  An R script with functions for morphological and syntactic manipulation of texts. 
+  
+* distcomp_loop.r
+  An R script which applies the functions for morphological and syntactic manipulation of texts to an entire corpus and repeats this process a specified number of times.
+
+* sample_data.zip
+  A 
 
 
 Getting started
