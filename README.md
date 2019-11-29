@@ -70,4 +70,12 @@ Note that the software has been developed and tested on Debian GNU/Linux 9.4. It
 
 ### Related publications
 
+Ehret, Katharina (2018a). "An information-theoretic view on language complexity and register variation: Compressing naturalistic corpus data".  *Corpus Linguistics and Linguistic Theory*.  DOI: https://doi.org/10.1515/cllt-2018-0033. (Ahead of Print)
 
+Ehret, Katharina (2018b). "Kolmogorov complexity as a universal measure of language complexity". In: Aleksandrs Berdicevskis & Christian Bentz  (eds.), *Proceedings of the First Shared Task on Measuring Language Complexity*, 8-14. Workshop on "Measuring Language Complexity", EvoLang XII, Torun, Poland.
+
+Ehret, Katharina (2017).  "An information-theoretic approach to language complexity: variation in naturalistic corpora". FreiDok plus, Universität Freiburg. DOI: 10.6094/UNIFR/12243.
+
+Ehret, Katharina & Benedikt Szmrecsanyi (2016a). "Compressing learner language: an information-theoretic measure of complexity in SLA".  *Second Language Research*.  DOI: 10.1177/0267658316669559  (Sage OnlineFirst)
+
+Ehret, Katharina & Benedikt Szmrecsanyi (2016b). "An information-theoretic approach to assess linguistic complexity". In: Raffaela Baechler & Guido Seiler (eds.), *Complexity, Isolation, and Variation*, 71-94. Berlin: de Gruyter. 
