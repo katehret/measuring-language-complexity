@@ -11,10 +11,12 @@ This research was sparked by the typological-sociolinguistic complexity debate. 
 
 Against this backdrop, Ehret (2017) explores the use and applicability of Kolmogorov complexity as a complexity metric in naturalistic corpora. Kolmogorov complexity can be conveniently approximated with compression algorithms and measures the information content, or complexity of texts in terms of the predictability of new text passages on the basis of previously seen text passages. Basically, texts which can be compressed more efficiently are linguistically less complex. In combination with various distortion techniques, the measure can be used to assess complexity at the morphological and syntactic level. 
 
+### Overview of the files
+
 This repository comprises the following items:
 
 * distcomp_functions.r
-  An R script with functions for morphological and syntactic manipulation of texts. 
+  An R script containing all functions necessary for the morphological and syntactic manipulation (distortion) of text files,  as well as other functions for implementing the compression technique. Morphological manipulation is achieved through the deletion of 10% of all alphabetically transcribed characters in a text file. Syntactic manipulation is achieved through the deletion of 10% of all alphabeticalla transcribed work tokens in a text file. For more details on how text manipulation works and how morphological and syntactic complexity need to be defined in this context see Ehret (2018, 2017).
   
 * distcomp_loop.r
   An R script which applies the functions for morphological and syntactic manipulation of texts to an entire corpus and repeats this process a specified number of times.
