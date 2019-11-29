@@ -5,7 +5,7 @@ Kolmogorov complexity, language complexity, compression
 
 This repository contains all necessary R scripts to implement the compression technique developed and described in 
 
-* Ehret, Katharina (2017).  "An information-theoretic approach to language complexity: variation in naturalistic corpora". FreiDok plus, Universität Freiburg. DOI: 10.6094/UNIFR/12243.
+* Ehret, Katharina (2017).  "[An information-theoretic approach to language complexity: variation in naturalistic corpora]"(https://freidok.uni-freiburg.de/data/12243). FreiDok plus, Universität Freiburg. DOI: 10.6094/UNIFR/12243.
 
 This research was sparked by the typological-sociolinguistic complexity debate. Originally concerned with the question of whether or not all languages are equally complex, the focus of the debate has recently moved to developing and comparing metrics of language complexity. 
 
@@ -55,23 +55,19 @@ Further non-mandatory text processing: To obtain reliable results it is further 
 
 Open R. Load the distortion and compression loop with 
 
-  source("pathtoscript/distcomp_loop.r")
+    source("pathtoscript/distcomp_loop.r")
 
 Start the loop and save your results with the measure.complexity() function.
 This function takes two arguments:
 1. The name of the directory where the data and temp folders are located.
-2. The number of repetitions you wish to apply. The customary number of repetitions applied with the compression technique is n = 1000 (cf. Ehret 2017; Ehret and
-Szmrecsanyi 2016).
+2. The number of repetitions you wish to apply. The customary number of repetitions applied with the compression technique is N = 1000.
 
-  result <- measure.complexity("yourdirectory/", repetitions)
+    result <- measure.complexity("yourdirectory/", repetitions)
 
 
 Note that the software has been developed and tested on Debian GNU/Linux 9.4. It has not been tested on Windows.
 
 
+### Related publications
 
-References
 
-Ehret, Katharina (2017).  “An information-theoretic approach to language complexity: variation in naturalistic corpora”. FreiDok plus, Universität Freiburg. DOI: 10.6094/UNIFR/12243. 
-
-Ehret, Katharina & Benedikt Szmrecsanyi (2016). “An information-theoretic approach to assess linguistic complexity”. In: Raffaela Baechler & Guido Seiler (eds.), Complexity, Isolation, and Variation, 71-94. Berlin: de Gruyter. 
