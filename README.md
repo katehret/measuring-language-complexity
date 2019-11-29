@@ -15,13 +15,15 @@ Against this backdrop, Ehret (2017) explores the use and applicability of Kolmog
 
 This repository comprises the following items:
 
-* distcomp_functions.r
-  An R script containing all functions necessary for the morphological and syntactic manipulation (distortion) of text files,  as well as other functions for implementing the compression technique. Morphological manipulation is achieved through the deletion of 10% of all alphabetically transcribed characters in a text file. Syntactic manipulation is achieved through the deletion of 10% of all alphabeticalla transcribed work tokens in a text file. For more details on how text manipulation works and how morphological and syntactic complexity need to be defined in this context see Ehret (2018, 2017).
-  
-* distcomp_loop.r
-  An R script which applies the functions for morphological and syntactic manipulation of texts to an entire corpus and repeats this process a specified number of times.
+#### distcomp_functions.r
 
-* sample_data.zip
+An R script containing all functions necessary for the morphological and syntactic manipulation (distortion) of text files, and their subsequent compression. It also contains several other functions for implementing the compression technique. Morphological manipulation is achieved through the deletion of 10% of all alphabetically transcribed characters in a text file. Syntactic manipulation is achieved through the deletion of 10% of all alphabetically transcribed work tokens in a text file. For more details on how text manipulation works and how morphological and syntactic complexity need to be defined in this context see Ehret (2018, 2017).
+  
+#### distcomp_loop.r
+ 
+An R script which applies the functions for morphological and syntactic manipulation to an entire corpus (collection of text files) and repeats this process a specified number of times. In this process, random samples of the text files are drawn.
+
+#### sample_data.zip
   
 
 
