@@ -60,7 +60,7 @@ Further non-mandatory text processing: To obtain reliable results it is further 
 
 Open R. Load the distortion and compression loop with 
 
-    source("pathtoscript/distcomp_loop.r")
+        source("pathtoscript/distcomp_loop.r")
 
 Start the loop and save your results with the measure.complexity() function.
 This function takes two arguments:
@@ -75,7 +75,7 @@ Note that the software has been developed and tested on Debian GNU/Linux 9.4. It
 
 ### Related publications
 
-Ehret, Katharina & Benedikt Szmrecsanyi (2019). "Compressing learner language: an information-theoretic measure of complexity in SLA".  *Second Language Research*. 35(1), 23-45. DOI: 10.1177/0267658316669559
+Ehret, Katharina & Benedikt Szmrecsanyi (2019). "Compressing learner language: an information-theoretic measure of complexity in SLA".  *Second Language Research*. 35(1), 23-45. DOI: [10.1177/0267658316669559](https://journals.sagepub.com/doi/abs/10.1177/0267658316669559)
 
 Ehret, Katharina (2018a). "An information-theoretic view on language complexity and register variation: Compressing naturalistic corpus data".  *Corpus Linguistics and Linguistic Theory*.  DOI: https://doi.org/10.1515/cllt-2018-0033. (Ahead of Print)
 
