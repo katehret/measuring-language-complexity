@@ -79,7 +79,7 @@ Ehret, Katharina & Benedikt Szmrecsanyi (2019). "Compressing learner language: a
 
 Ehret, Katharina (2018a). "An information-theoretic view on language complexity and register variation: Compressing naturalistic corpus data".  *Corpus Linguistics and Linguistic Theory*.  DOI: https://doi.org/10.1515/cllt-2018-0033. (Ahead of Print)
 
-Ehret, Katharina (2018b). "Kolmogorov complexity as a universal measure of language complexity". In: Aleksandrs Berdicevskis & Christian Bentz  (eds.), *Proceedings of the First Shared Task on Measuring Language Complexity*, 8-14. Workshop on "Measuring Language Complexity", EvoLang XII, Torun, Poland.
+Ehret, Katharina (2018b). "[Kolmogorov complexity as a universal measure of language complexity](http://www.christianbentz.de/MLC2018/Ehret.pdf)". In: Aleksandrs Berdicevskis & Christian Bentz  (eds.), *Proceedings of the First Shared Task on Measuring Language Complexity*, 8-14. Workshop on "Measuring Language Complexity", EvoLang XII, Torun, Poland.
 
 Ehret, Katharina (2017).  "[An information-theoretic approach to language complexity: variation in naturalistic corpora](https://freidok.uni-freiburg.de/data/12243)". FreiDok plus, Universität Freiburg. DOI: 10.6094/UNIFR/12243.
 
