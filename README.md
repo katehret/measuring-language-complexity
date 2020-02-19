@@ -13,7 +13,11 @@ Against this backdrop, Ehret (2017) explores the use and applicability of Kolmog
 
 ### Overview of the files
 
-This repository comprises the following items:
+This repository comprises the following items (in alphabetical order):
+
+#### complexity_analysis.r
+
+A file with R commands to calculate complexity scores for overall, morphological and syntactic complexity as described in Ehret (2017).
 
 #### distcomp_functions.r
 
@@ -21,7 +25,7 @@ An R script containing all functions necessary for the morphological and syntact
   
 #### distcomp_loop.r
  
-An R script which applies the functions for morphological and syntactic manipulation to an entire corpus (collection of text files) and repeats this process a specified number of times. In this process, random samples of the text files are drawn.
+An R script which applies the functions for morphological and syntactic manipulation to random samples of all files in a corpus (collection of text files) for a specified number of repetitions.
 
 #### sample_data.zip
   
@@ -64,11 +68,11 @@ Open R. Load the distortion and compression loop with
 
 Start the loop and save your results with the `measure.complexity()` function. This function takes two arguments:
 1. The name of the directory where the data and temp folders are located.
-2. The number of repetitions you wish to apply. The customary number of repetitions applied with the compression technique is N = 1000.
+2. The number of repetitions you wish to apply, i.e. the number of repetitions for drawing random samples, manipulating and compressing them. The customary number of repetitions applied with the compression technique is N = 1000.
 
         result = measure.complexity("yourDirectory/", repetitions)
 
-This returns a list with the uncompressed and compressed file sizes for the original texts, the morphologically distorted texts, and the syntactically distorted texts in the corpus, respectively. It also contains the scores for morphological and syntactic complexity.
+This returns a list with the uncompressed and compressed file sizes for the original texts, the morphologically distorted texts, and the syntactically distorted texts in the corpus, respectively. It also contains ratios for morphological and syntactic complexity.
 
     > result
     [[1]]
@@ -82,6 +86,12 @@ This returns a list with the uncompressed and compressed file sizes for the orig
     Finnish         2624 -0.9678097 0.9181246
     French          2468 -0.9966493 0.9188384
     German          2693 -0.9898029 0.9153637
+
+The result can be saved with
+
+    write.csv(result, "result.csv")
+    
+To store the result in a dataframe and calculate complexity scores as described in Ehret (2017) use the commands listed in *complexity_analysis.r*. Adapt the commands according to the number of repetitions with which the distortion.loop has been applied.
 
 
 Note that the software has been developed and tested on Debian GNU/Linux 9.4. It has not been tested on Windows.
