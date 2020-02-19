@@ -40,11 +40,11 @@ Before getting started you need to install R (available from:https://www.r-proje
 
 #### 2. Folder structure
 
-Save all R scripts in the same directory of your choice. Open the file distcomp.loop.r and adjust the path to the required sources as necessary. Save and close the file.
+Save all R scripts in the same directory of your choice. Open the file *distcomp.loop.r* and adjust the path to the required source as necessary. Save and close the file.
 
     source("adjustedPath/distcomp.functions.r")
 
-Create a directory containing two folders named "data" and "temp". The folder names are hard-coded in the script but the scripts can be run from any location on your system provided you have adjusted the path to the scripts as described above. Unzip the sample data and move the text files to the folder named "data".
+Create a new directory with a name of your choice. Within this directory create two folders named "data" and "temp". These folder names are hard-coded in the script but the script can be run from any location on your system provided you have adjusted the path as described above. Unzip the sample data and move the text files to the folder named "data".
 
 #### 3. Input data
 
