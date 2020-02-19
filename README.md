@@ -25,7 +25,7 @@ An R script which applies the functions for morphological and syntactic manipula
 
 #### sample_data.zip
   
-A zip archive containing a folder called "data" which comprises 4 text files of the Gospel of Mark. The text files have been lowercased, all numbers and other non-alphabetical characters have been removed. All end-of sentence markers (punctuation including semi-colons) were replaced with a single fullstop.
+A zip archive containing a folder called "data" which comprises 4 text files of the Gospel of Mark. The text files have been lowercased, all numbers and other non-alphabetical characters have been removed. All end-of sentence markers (punctuation including semi-colons, colons, question marks and exclamation marks) were replaced with a single fullstop.
 
 * English_ESV_21c.formatted.txt
 * Finnish_20c.formatted.txt
