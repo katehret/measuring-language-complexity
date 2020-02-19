@@ -44,7 +44,7 @@ Save all R scripts in the same directory of your choice. Open the file distcomp.
 
     source("adjustedPath/distcomp.functions.r")
 
-Create a directory containing two folders named "data" and "temp". The folder names are hard-coded in the script. Unzip the sample data and move the text files to the folder named "data".
+Create a directory containing two folders named "data" and "temp". The folder names are hard-coded in the script but the scripts can be run from any location on your system provided you have adjusted the path to the scripts as described above. Unzip the sample data and move the text files to the folder named "data".
 
 #### 3. Input data
 
