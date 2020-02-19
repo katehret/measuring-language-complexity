@@ -40,9 +40,11 @@ Before getting started you need to install R (available from:https://www.r-proje
 
 #### 2. Folder structure
 
-Save all R scripts in the same directory of your choice. Make sure you include the proper path to the scripts when calling them in R. 
+Save all R scripts in the same directory of your choice. Open the file distcomp.loop.r and adjust the path to the required sources as necessary. Save and close the file.
 
-Create a directory containing two folders with the names "data" and "temp". Unzip the sample data and move the text files to the folder named "data".
+    source("adjustedPath/distcomp.functions.r")
+
+Create a directory containing two folders named "data" and "temp". The folder names are hard-coded in the script. Unzip the sample data and move the text files to the folder named "data".
 
 #### 3. Input data
 
@@ -58,14 +60,14 @@ Further non-mandatory text processing: To obtain reliable results it is further 
 
 Open R. Load the distortion and compression loop with 
 
-        source("pathtoscript/distcomp_loop.r")
+        source("pathToScript/distcomp_loop.r")
 
 Start the loop and save your results with the measure.complexity() function.
 This function takes two arguments:
 1. The name of the directory where the data and temp folders are located.
 2. The number of repetitions you wish to apply. The customary number of repetitions applied with the compression technique is N = 1000.
 
-        result = measure.complexity("yourdirectory/", repetitions)
+        result = measure.complexity("yourDirectory/", repetitions)
 
 This returns a dataframe with...
 
