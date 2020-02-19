@@ -1,4 +1,4 @@
-## measuring-language-complexity
+# measuring-language-complexity
 Kolmogorov complexity, language complexity, compression
 
 ### Description
@@ -34,18 +34,17 @@ A zip archive containing a folder called "data" which comprises 4 text files of 
 
 ### Getting started
 
-1. Software requirements
+#### 1. Software requirements
 
 Before getting started you need to install R (available from:https://www.r-project.org/) and gzip (available from: http://www.gzip.org/).
 
-2. Folder structure
+#### 2. Folder structure
 
 Save all R scripts in the same directory of your choice. Make sure you include the proper path to the scripts when calling them in R. 
 
 Create a directory containing two folders with the names "data" and "temp". Unzip the sample data and move the text files to the folder named "data".
 
-
-3. Input data
+#### 3. Input data
 
 The distortion and compression loop takes plain text files (file extension
 .txt) as input. It is designed to work on multiple-file datasets, i.e. you need
@@ -53,10 +52,9 @@ to provide at least two text files.
 
 All end-of-sentence markers need to be replaced with a single fullstop so that the script can create samples of random sentences.
 
-Further non-mandatory text processing: To obtain reliable results it is further recommended to convert your text files to lowercase, remove all non-alphabetical characters (i.e. XML or corpus mark-up, quotation marks, numbers, commas, hyphens, or special symbols like @,#,$ as well as invisible UTF8-characters, etc.). 
+Further non-mandatory text processing: To obtain reliable results it is further recommended to convert your text files to lowercase and remove all non-alphabetical characters (i.e. XML or corpus mark-up, quotation marks, numbers, commas, hyphens, or special symbols like @,#,$ as well as invisible UTF8-characters, etc.). 
 
-
-4. Calling the loop
+#### 4. How to use the scripts
 
 Open R. Load the distortion and compression loop with 
 
@@ -69,6 +67,7 @@ This function takes two arguments:
 
         result = measure.complexity("yourdirectory/", repetitions)
 
+This returns a dataframe with...
 
 Note that the software has been developed and tested on Debian GNU/Linux 9.4. It has not been tested on Windows.
 
