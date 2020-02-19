@@ -62,8 +62,7 @@ Open R. Load the distortion and compression loop with
 
         source("pathToScript/distcomp_loop.r")
 
-Start the loop and save your results with the measure.complexity() function.
-This function takes two arguments:
+Start the loop and save your results with the `measure.complexity()` function. This function takes two arguments:
 1. The name of the directory where the data and temp folders are located.
 2. The number of repetitions you wish to apply. The customary number of repetitions applied with the compression technique is N = 1000.
 
