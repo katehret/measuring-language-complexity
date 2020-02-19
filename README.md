@@ -27,10 +27,10 @@ An R script which applies the functions for morphological and syntactic manipula
   
 A zip archive containing a folder called "data" which comprises 4 text files of the Gospel of Mark. The text files have been lowercased, all numbers and other non-alphabetical characters have been removed. All end-of sentence markers (punctuation including semi-colons, colons, question marks and exclamation marks) were replaced with a single fullstop.
 
-* English_ESV_21c.formatted.txt
-* Finnish_20c.formatted.txt
-* French_20c.formatted.txt
-* German_20c.formatted.txt
+* English_ESV_21c.txt
+* Finnish_20c.txt
+* French_20c.txt
+* German_20c.txt
 
 ### Getting started
 
@@ -68,7 +68,21 @@ Start the loop and save your results with the `measure.complexity()` function. T
 
         result = measure.complexity("yourDirectory/", repetitions)
 
-This returns a dataframe with...
+This returns a list with the uncompressed and compressed file sizes for the original texts, the morphologically distorted texts, and the syntactically distorted texts in the corpus, respectively. It also contains the scores for morphological and syntactic complexity.
+
+    > result
+    [[1]]
+                 orig.uncomp orig.comp morphdist.uncomp morphdist.comp syndist.uncomp
+    English        7277      2973             6481           2969           6537
+    Finnish        6685      2858             5904           2766           6076
+    French         6271      2686             5543           2677           5619
+    German         7026      2942             6248           2912           6305
+            syndist.comp morphratio  synratio
+    English         2727 -0.9986546 0.9172553
+    Finnish         2624 -0.9678097 0.9181246
+    French          2468 -0.9966493 0.9188384
+    German          2693 -0.9898029 0.9153637
+
 
 Note that the software has been developed and tested on Debian GNU/Linux 9.4. It has not been tested on Windows.
 
