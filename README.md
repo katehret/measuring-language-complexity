@@ -1,4 +1,4 @@
-# measuring-language-complexity
+# measuring-language-complexity, version 1.0
 Kolmogorov complexity, language complexity, compression
 
 ### Description
