@@ -66,7 +66,7 @@ Open R. Load the distortion and compression loop with
 
         source("pathToScript/distcomp_loop.r")
 
-Start the loop and save your results with the `measure.complexity()` function. This function takes two arguments:
+Start the distortion and compression loop and save your results with the `measure.complexity()` function. This function takes two arguments:
 1. The name of the directory where the data and temp folders are located.
 2. The number of repetitions you wish to apply, i.e. the number of repetitions for drawing random samples, manipulating and compressing them. The customary number of repetitions applied with the compression technique is N = 1000.
 
@@ -91,7 +91,7 @@ The result can be saved with
 
     write.csv(result, "result.csv")
     
-To store the result in a dataframe and calculate complexity scores as described in Ehret (2017) use the commands listed in *complexity_analysis.r*. Adapt the commands according to the number of repetitions with which the distortion.loop has been applied.
+To store the result in a dataframe and calculate complexity scores as described in Ehret (2017) use the commands listed in *complexity_analysis.r*. Adapt the commands according to the number of repetitions with which the distortion and compression loop has been applied.
 
 
 Note that the software has been developed and tested on Debian GNU/Linux 9.4. It has not been tested on Windows.
