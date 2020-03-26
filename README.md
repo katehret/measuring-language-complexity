@@ -1,5 +1,11 @@
 # measuring-language-complexity
 
+### DOI
+
+[![DOI](https://zenodo.org/badge/127963705.svg)](https://zenodo.org/badge/latestdoi/127963705)
+
+https://zenodo.org/badge/latestdoi/127963705
+
 
 ### Description
 
