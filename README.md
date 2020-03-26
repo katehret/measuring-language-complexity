@@ -1,5 +1,7 @@
 # measuring-language-complexity
 
+Scripts and sample data for the compression technique (Ehret 2017, 2018) (version 1.0)
+
 ### DOI
 
 [![DOI](https://zenodo.org/badge/127963705.svg)](https://zenodo.org/badge/latestdoi/127963705)
