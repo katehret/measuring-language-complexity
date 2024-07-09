@@ -104,15 +104,20 @@ To store the result in a dataframe and calculate complexity scores as described 
 
 Note that the software has been developed and tested on Debian GNU/Linux 9.4. It has not been tested on Windows.
 
+### Cite as
+
+Kat Ehret (2020). katehret/measuring-language-complexity: Compression_technique (v1.0). Zenodo. https://doi.org/10.5281/zenodo.3727536
 
 ### Related publications
 
-Ehret, Katharina & Benedikt Szmrecsanyi (2019). "Compressing learner language: an information-theoretic measure of complexity in SLA".  *Second Language Research*. 35(1), 23-45. DOI: [10.1177/0267658316669559](https://journals.sagepub.com/doi/abs/10.1177/0267658316669559)
+Ehret Katharina and Maite Taboada. 2021. "The interplay of complexity and subjectivity in opinionated discourse". Discourse Studies 23 (2), 141-165.  DOI: https://doi.org/10.1177/1461445620966923
 
-Ehret, Katharina (2018a). "An information-theoretic view on language complexity and register variation: Compressing naturalistic corpus data".  *Corpus Linguistics and Linguistic Theory*.  DOI: https://doi.org/10.1515/cllt-2018-0033. (Ahead of Print)
+Ehret, Katharina. 2021. “An Information-Theoretic View on Language Complexity and Register Variation: Compressing Naturalistic Corpus Data.” Corpus Linguistics and Linguistic Theory 17 (2) : 383-410. DOI: https://doi.org/10.1515/cllt-2018-0033
 
-Ehret, Katharina (2018b). "[Kolmogorov complexity as a universal measure of language complexity](http://www.christianbentz.de/MLC2018/Ehret.pdf)". In: Aleksandrs Berdicevskis & Christian Bentz  (eds.), *Proceedings of the First Shared Task on Measuring Language Complexity*, 8-14. Workshop on "Measuring Language Complexity", EvoLang XII, Torun, Poland.
+Ehret, Katharina & Benedikt Szmrecsanyi. 2019. "Compressing learner language: an information-theoretic measure of complexity in SLA".  *Second Language Research*. 35(1), 23-45. DOI: [10.1177/0267658316669559](https://journals.sagepub.com/doi/abs/10.1177/0267658316669559)
 
-Ehret, Katharina (2017).  "[An information-theoretic approach to language complexity: variation in naturalistic corpora](https://freidok.uni-freiburg.de/data/12243)". FreiDok plus, Universität Freiburg. DOI: 10.6094/UNIFR/12243.
+Ehret, Katharina. 2018. "[Kolmogorov complexity as a universal measure of language complexity](http://www.christianbentz.de/MLC2018/Ehret.pdf)". In: Aleksandrs Berdicevskis & Christian Bentz  (eds.), *Proceedings of the First Shared Task on Measuring Language Complexity*, 8-14. Workshop on "Measuring Language Complexity", EvoLang XII, Torun, Poland.
 
-Ehret, Katharina & Benedikt Szmrecsanyi (2016b). "An information-theoretic approach to assess linguistic complexity". In: Raffaela Baechler & Guido Seiler (eds.), *Complexity, Isolation, and Variation*, 71-94. Berlin: de Gruyter. 
+Ehret, Katharina. 2017. "[An information-theoretic approach to language complexity: variation in naturalistic corpora](https://freidok.uni-freiburg.de/data/12243)". FreiDok plus, Universität Freiburg. DOI: 10.6094/UNIFR/12243.
+
+Ehret, Katharina & Benedikt Szmrecsanyi. 2016. "An information-theoretic approach to assess linguistic complexity". In: Raffaela Baechler & Guido Seiler (eds.), *Complexity, Isolation, and Variation*, 71-94. Berlin: de Gruyter. 
